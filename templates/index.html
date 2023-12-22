@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Question-Answer App</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header style="color: #fff; text-align: center; padding: 20px">
+        <h1 style="font-size: 72px; font-weight: bold">COOKIE GPT</h1>
+      </header>
+      <main>
+        <form method="post" class="question-form">
+          <input
+            type="text"
+            id="question"
+            name="question"
+            placeholder="Type your question here..."
+            autocomplete="off"
+          />
+          <button type="submit">Ask</button>
+        </form>
+        {% if answer %}
+        <div class="answer-section">
+          <h2>Answer:</h2>
+          <p class="answer">{{ answer }}</p>
+        </div>
+        {% endif %}
+      </main>
+    </div>
+  </body>
+</html>
