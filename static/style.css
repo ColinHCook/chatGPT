@@ -1,6 +1,11 @@
 body {
-  font-family: "Arial", sans-serif;
-  background-color: #f4f4f4;
+  font-family: "Georgia", sans-serif;
+  background-image: url("background.jpg"); /* Set the background image */
+  background-size: cover; /* Cover the entire viewport */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-attachment: fixed; /* Fix the background image */
+  background-position: center; /* Center the image horizontally and vertically */
+  background-color: #000000; /* Fallback background color */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -17,9 +22,9 @@ header {
   margin-bottom: 40px;
 }
 
-header h1 {
-  color: #333;
-  font-size: 2.5rem;
+h1 strong {
+  background-size: cover;
+  color: #000000;
 }
 
 main {
