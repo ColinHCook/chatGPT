@@ -1,4 +1,4 @@
-#CookieGPT
+# CookieGPT
 
 Created a simple ChatGPT clone using OpenAI API, Python, Flask, and basic HTML/CSS. 
 
