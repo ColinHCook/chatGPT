@@ -1,6 +1,6 @@
 # CookieGPT
 
-Created a simple ChatGPT clone using OpenAI API, Python, Flask, and basic HTML/CSS. 
+Created a simple openai wrapper using OpenAI API, Python, Flask, and basic HTML/CSS. 
 
 Features:
 1. Simple UI to allow for easy use.
